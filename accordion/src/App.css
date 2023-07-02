@@ -1,0 +1,47 @@
+main{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 90vw;
+  margin: 5rem auto;
+  background-color:rgb(236, 235, 235);
+  border-radius: 0.25rem;
+  padding: 2rem 2rem;
+  max-width: 920px;
+}
+.Btn{
+  background: #bbbbbb;
+  border: #bbbbbb;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff0000;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 1rem;
+  align-self: center;
+  min-width: 2rem;
+}
+.content{
+  padding: 1rem 1.5rem;
+  border: 2px solid rgb(243, 37, 14);
+  margin-bottom: 1rem;
+  border-radius: 1.25rem;
+  box-shadow:0 5px 15px #000000 ;
+}
+
+.content header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  }
+
+.content p{
+  color: purple;
+}
